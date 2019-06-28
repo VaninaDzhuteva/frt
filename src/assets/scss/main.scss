@@ -1,0 +1,14 @@
+@import "./././node_modules/bootstrap/scss/bootstrap";
+@import "./././node_modules/bootstrap/scss/functions";
+@import "./././node_modules/bootstrap/scss/variables";
+@import "./././node_modules/bootstrap/scss/mixins";
+@import 'abstracts/variables';
+@import 'abstracts/mixins';
+@import 'base/typography';
+@import 'base/base';
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/forms';
+@import 'components/buttons';
+@import 'components/slider';
