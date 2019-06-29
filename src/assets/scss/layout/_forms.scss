@@ -1,0 +1,20 @@
+.validation--input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 86px;
+    margin-right: 7px;
+    border: solid 2px #bebebe;
+}
+
+.validation--input,
+.validation--input::placeholder {
+    text-align: center;
+    font-family: $font-family-franchishe;
+    font-size: 49px;
+    font-weight: bold;
+    text-shadow: 1px 1.7px 2px $black;
+    color: black;
+    text-transform: uppercase;
+}

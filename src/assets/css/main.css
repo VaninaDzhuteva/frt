@@ -7020,41 +7020,6 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-.btn {
-  font-size: 22.5px;
-  padding: 11px 16.5px;
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0; }
-
-.btn-primary {
-  color: #ffffff;
-  background: #5ad0a1;
-  border-color: #5ad0a1; }
-  .btn-primary:hover {
-    border-color: #5ad0a1;
-    background: #37c089; }
-
-.btn-outline-primary {
-  color: #5ad0a1;
-  border-color: #5ad0a1; }
-  .btn-outline-primary:hover {
-    color: #ffffff;
-    border-color: #5ad0a1;
-    background: #5ad0a1; }
-
-.btn-lg, .btn-group-lg > .btn {
-  padding: 12px 25.5px;
-  font-size: 18px;
-  line-height: 1.33; }
-
-.btn-sm, .btn-group-sm > .btn {
-  padding: 8.5px 13px;
-  font-size: 18px;
-  line-height: 1.33; }
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
   color: #001b1c; }
@@ -7073,3 +7038,93 @@ p {
 
 body {
   font-size: 16px; }
+
+.hidden {
+  display: none; }
+
+.validation--input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 86px;
+  margin-right: 7px;
+  border: solid 2px #bebebe; }
+
+.validation--input,
+.validation--input::placeholder {
+  text-align: center;
+  font-family: Franchise;
+  font-size: 49px;
+  font-weight: bold;
+  text-shadow: 1px 1.7px 2px #001b1c;
+  color: black;
+  text-transform: uppercase; }
+
+.btn {
+  font-size: 22.5px;
+  padding: 11px 16.5px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0; }
+
+.btn-primary {
+  width: 161px;
+  height: 61px;
+  color: #ffffff;
+  background: #5ad0a1;
+  border-color: #5ad0a1; }
+  .btn-primary:hover {
+    border-color: #5ad0a1;
+    background: #37c089; }
+
+.btn-outline-primary {
+  height: 59px;
+  border: solid 2px #5ad0a1;
+  color: #5ad0a1; }
+  .btn-outline-primary:hover {
+    color: #ffffff;
+    border-color: #5ad0a1;
+    background: #5ad0a1; }
+
+.btn-lg, .btn-group-lg > .btn {
+  padding: 12px 25.5px;
+  font-size: 18px;
+  line-height: 1.33; }
+
+.btn-sm, .btn-group-sm > .btn {
+  padding: 8.5px 13px;
+  font-size: 18px;
+  line-height: 1.33; }
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #ffffff;
+  background: #5ad0a1;
+  border-color: #5ad0a1; }
+
+.validation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.heading {
+  font-size: 45.5px;
+  font-weight: bold;
+  font-family: Franchise;
+  color: #5ad0a1; }
+
+.submit-text {
+  margin-top: 25px;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #6e6d67; }
+
+.submit-text a {
+  color: #6e6d67;
+  border-bottom: 1px solid #6e6d67; }

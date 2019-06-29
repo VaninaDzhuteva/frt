@@ -9,6 +9,8 @@
 }
 
 .btn-primary {
+    width: 161px;
+    height: 61px;
     color: $white;
     background: $primary;
     border-color: $primary;
@@ -20,8 +22,9 @@
 }
 
 .btn-outline-primary {
+    height: 59px;
+    border: solid 2px $primary;
     color: $primary;
-    border-color: $primary;
 
     &:hover {
         color: $white;
