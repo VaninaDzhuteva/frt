@@ -1,0 +1,49 @@
+.btn {
+    font-size: 22.5px;
+    padding: 11px 16.5px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.btn-primary {
+    color: $white;
+    background: $primary;
+    border-color: $primary;
+
+    &:hover {
+        border-color: $primary;
+        background: darken($color: $primary, $amount: 10%);
+    }
+}
+
+.btn-outline-primary {
+    color: $primary;
+    border-color: $primary;
+
+    &:hover {
+        color: $white;
+        border-color: $primary;
+        background: $primary;
+    }
+}
+
+.btn-lg {
+    padding: 12px 25.5px;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.btn-sm {
+    padding: 8.5px 13px;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: $white;
+    background: $primary;
+    border-color: $primary;
+}
