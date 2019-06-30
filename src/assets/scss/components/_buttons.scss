@@ -40,12 +40,19 @@
 }
 
 .btn-sm {
-    padding: 8.5px 13px;
+    width: 141px;
+    height: 47px;
     font-size: 18px;
-    line-height: 1.33;
+    line-height: 1;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+    color: $white;
+    background: $primary;
+    border-color: $primary;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
     color: $white;
     background: $primary;
     border-color: $primary;

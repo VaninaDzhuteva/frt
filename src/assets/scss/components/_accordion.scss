@@ -1,0 +1,24 @@
+.card-header {
+    display: flex;
+    align-items: center;
+    height: 103px;
+    border: solid 1px #bbbbbb;
+    background: $white;
+}
+
+
+.card-body h2 {
+    margin-bottom: 40px;
+}
+
+.card .card-body {
+    display: flex;
+    align-items: center;
+    height: 463px;
+    background: url('/frt/src/assets/images/Background2.png') no-repeat center center;
+    background-size: cover;
+
+     @media screen and (max-width: 767.98px) {
+        height: auto;
+    }
+}

@@ -1,0 +1,94 @@
+.main {
+    margin-top: 80px;
+}
+
+.underline {
+    display: block;
+    width: 138px;
+    height: 1px;
+    margin-top: 30px;
+    background: $primary;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 50%;
+        width: 32px;
+        height: 3px;
+        background: $primary;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+}
+
+.row--top {
+    margin-top: 85px;
+
+     @media screen and (max-width: 767.98px) {
+        margin-top: 50px;
+     }
+}
+
+.card p {
+    color: #a4a4a4;
+}
+
+.assembler--container {
+    margin-bottom: 140px;
+
+    @media screen and (max-width: 767.98px) {
+        margin-bottom: 50px;
+    }
+    
+}
+
+.added-row {
+    width: 100%;
+    height: 87px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #bbbbbb 50%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: 18px 1px, 1px 10px;
+}
+
+.number {
+    margin-right: 17px;
+    color: $dark;
+}
+
+.number,
+.text {
+    font-size: 20px;
+    line-height: 3.45;
+
+    @media screen and (max-width: 767.98px) {
+        font-size: 16px;
+    }
+}
+
+.text {
+    color: $secondary;
+}
+
+.contact {
+    background: url('/frt/src/assets/images/Background.png');
+}
+
+.contact-form p {
+    margin-top: 80px;
+    line-height: 1.71;
+    letter-spacing: 0.7px;
+    text-align: center;
+    color: $dark;
+
+    @media screen and (max-width: 767.98px) {
+        margin-top: 40px;
+    }
+}
+

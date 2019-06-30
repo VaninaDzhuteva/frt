@@ -9,21 +9,41 @@ h6 {
 }
 
 h1 {
-  line-height: 2.46;
-
-  @media screen and (max-width: 991.98px) {
-    line-height: 1.2;
-  }
+  font-size: $h1-font-size;
 }
 
 h2 {
-  line-height: 2.88;
+  font-size: $h2-font-size;
 }
 
 h3 {
-  line-height: 3.45;
+  font-size: $h3-font-size;
+
+   @media screen and (max-width: 767.98px) {
+      font-size: 17px;
+   }
 }
 
 p {
+  font-size: 14px;
   color: $light;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+.inner-list li {
+  color: #a4a4a4;
+  list-style-type: none;
+  padding-bottom: 10px;
+
+  &::before {
+    content: '\25CF';
+    color: $primary;
+    padding-right: 10px;
+  }
+
+   @media screen and (max-width: 767.98px) {
+      text-align: center;
+   }
 }

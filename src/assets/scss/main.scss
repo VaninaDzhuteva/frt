@@ -7,9 +7,10 @@
 @import 'base/typography';
 @import 'base/base';
 @import 'layout/navigation';
-@import 'layout/header';
 @import 'layout/footer';
 @import 'layout/forms';
+@import 'components/accordion';
 @import 'components/buttons';
 @import 'components/slider';
 @import 'pages/index';
+@import 'pages/inner';

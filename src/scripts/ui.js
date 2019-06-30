@@ -11,3 +11,7 @@ var mySwiper = new Swiper('.swiper-container', {
         prevEl: '.swiper-button-prev',
     }
 });
+
+document.getElementById('checkbox').addEventListener('click', () => {
+    document.querySelector('.bg-check').classList.toggle('hidden');
+});

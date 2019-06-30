@@ -1,47 +1,66 @@
 body {
-    font-size: 16px;
+    font-family: $font-family-base;
 }
 
 .hidden {
     display: none;
 }
 
-.bg-facebook_f {
-    width: 94px; height: 150px;
-    background: url('/frt/src/assets/images/css_sprites.png') -369px -180px;
+.bg-youtube {
+    width: 20px; height: 22px;
+    background: url('/frt/src/assets/images/css_sprites.png') -234px -75px;
 }
 
-.bg-linkedin_in {
-    width: 131px; height: 150px;
-    background: url('/frt/src/assets/images/css_sprites.png') -369px -10px;
+.bg-linkedin {
+    width: 20px; height: 19px;
+    background: url('/frt/src/assets/images/css_sprites.png') -314px -75px;
 }
 
 .bg-twitter {
-    width: 150px; height: 150px;
-    background: url('/frt/src/assets/images/css_sprites.png') -199px -10px;
+    width: 20px; height: 16px;
+    background: url('/frt/src/assets/images/css_sprites.png') -354px -75px;
 }
 
-.bg-youtube {
-    width: 169px; height: 150px;
-    background: url('/frt/src/assets/images/css_sprites.png') -10px -10px;
+.bg-facebook {
+    width: 12px; height: 21px;
+    background: url('/frt/src/assets/images/css_sprites.png') -234px -117px;
 }
 
-.bg-substract {
-    width: 150px; height: 150px;
-    background: url('/frt/src/assets/images/css_sprites.png') -10px -180px;
+.bg-plus {
+    width: 20px; height: 20px;
+    background: url('/frt/src/assets/images/css_sprites.png') -274px -75px;
 }
 
-.bg-add {
-    width: 150px; height: 150px;
-    background: url('/frt/src/assets/images/css_sprites.png') -180px -180px;
+.bg-minus {
+    width: 20px; height: 2px;
+    background: url('/frt/src/assets/images/css_sprites.png') -465px -75px;
 }
 
-.bg-cancel {
-    width: 64px; height: 64px;
-    background: url('/frt/src/assets/images/css_sprites.png') -10px -415px;
+.bg-check {
+    position: absolute;
+    top: 8px;
+    left: -18px;
+    width: 15px; height: 11px;
+    background: url('/frt/src/assets/images/css_sprites.png') -430px -75px;
+}
+
+.bg-delete {
+    width: 16px; height: 16px;
+    background: url('/frt/src/assets/images/css_sprites.png') -394px -75px;
+    cursor: pointer;
 }
 
 .bg-Logo {
     width: 271px; height: 45px;
-    background: url('/frt/src/assets/images/css_sprites.png') -10px -350px;
+    background: url('/frt/src/assets/images/css_sprites.png') -234px -10px;
+}
+
+.bg-arrow_left {
+    width: 92px; height: 150px;
+    background: url('/frt/src/assets/images/css_sprites.png') -10px -10px;
+}
+
+.bg-arrow_right {
+    width: 92px; height: 150px;
+    background: url('/frt/src/assets/images/css_sprites.png') -122px -10px;
 }
