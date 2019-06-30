@@ -5,3 +5,43 @@ body {
 .hidden {
     display: none;
 }
+
+.bg-facebook_f {
+    width: 94px; height: 150px;
+    background: url('/frt/src/assets/images/css_sprites.png') -369px -180px;
+}
+
+.bg-linkedin_in {
+    width: 131px; height: 150px;
+    background: url('/frt/src/assets/images/css_sprites.png') -369px -10px;
+}
+
+.bg-twitter {
+    width: 150px; height: 150px;
+    background: url('/frt/src/assets/images/css_sprites.png') -199px -10px;
+}
+
+.bg-youtube {
+    width: 169px; height: 150px;
+    background: url('/frt/src/assets/images/css_sprites.png') -10px -10px;
+}
+
+.bg-substract {
+    width: 150px; height: 150px;
+    background: url('/frt/src/assets/images/css_sprites.png') -10px -180px;
+}
+
+.bg-add {
+    width: 150px; height: 150px;
+    background: url('/frt/src/assets/images/css_sprites.png') -180px -180px;
+}
+
+.bg-cancel {
+    width: 64px; height: 64px;
+    background: url('/frt/src/assets/images/css_sprites.png') -10px -415px;
+}
+
+.bg-Logo {
+    width: 271px; height: 45px;
+    background: url('/frt/src/assets/images/css_sprites.png') -10px -350px;
+}
