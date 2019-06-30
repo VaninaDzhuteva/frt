@@ -5,9 +5,99 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../src/assets/css/main.css" />
+    <!-- Swiper -->
+    <link rel="stylesheet" href="/frt/node_modules/swiper/dist/css/swiper.min.css">
     <title>Flat Rock Technology Test Task</title>
 </head>
 <body>
-    
+<!-- Header -->
+<header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="nav--conainer container h-100">
+            <div class="navbar__row row">
+                <a class="navbar-brand" href="#">
+                    <div class="bg-Logo"></div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse full-height" id="navbarSupportedContent">
+                    <ul class="navbar-nav h-100 align-items-lg-center">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Customer Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /navbar-collapse -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </nav>
+
+    <!-- Slider main container -->
+    <div id="main-slider" class="swiper-container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="/frt/src/assets/images/slide-one.png" alt="slide image">
+            </div>
+            <div class="swiper-slide">
+                <img src="/frt/src/assets/images/slide-two.png" alt="slide image">
+            </div>
+            <div class="swiper-slide">
+                <img src="/frt/src/assets/images/slide-three.png" alt="slide image">
+            </div>
+            <div class="swiper-slide">
+                <img src="/frt/src/assets/images/slide-four.png" alt="slide image">
+            </div>
+        </div>
+
+        <div class="container slider__info slider__info--horizontal-center slider__info--vertical-center">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <div class="slider__text">
+                        <div class="slider__overlay">
+                            <div class="slider__title">
+                                <div class="slider__content-container">
+                                    <h1>Meet The Revolution in Solar</h1>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                                    <a href="#" class="btn btn-outline-primary btn-lg mt-4">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+    </div>
+</header>
+
+
+<script src="/frt/node_modules/swiper/dist/js/swiper.min.js"></script>
+<script src="./bundle.js"></script>
 </body>
 </html>
