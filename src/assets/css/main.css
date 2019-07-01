@@ -7560,6 +7560,9 @@ input[type=checkbox] + label::after, input[type=checkbox]:checked + label::after
     .assembler--container {
       margin-bottom: 50px; } }
 
+.output {
+  width: 100%; }
+
 .added-row {
   width: 100%;
   height: 87px;
