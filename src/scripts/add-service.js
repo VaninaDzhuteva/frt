@@ -6,7 +6,9 @@ let item = '';
 const serviceArr = [];
 
 // Add ev listenere on add button
-addBtn.addEventListener('click', createElem);
+if(addBtn) {
+    addBtn.addEventListener('click', createElem);
+}
 
 // Create element function
 function createElem (e) {

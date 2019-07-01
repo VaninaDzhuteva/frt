@@ -8,6 +8,10 @@
     -o-border-radius: 0;
 }
 
+.btn:focus, .btn.focus {
+    box-shadow: none;
+}
+
 .btn-primary {
     width: 161px;
     height: 61px;

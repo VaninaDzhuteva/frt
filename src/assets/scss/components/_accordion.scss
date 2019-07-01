@@ -6,6 +6,13 @@
     background: $white;
 }
 
+.card-header .btn {
+    font-size: $h3-font-size;
+    font-weight: 900;
+    color: $dark;
+    -webkit-appearance: none;
+}
+
 
 .card-body h2 {
     margin-bottom: 40px;
@@ -15,7 +22,7 @@
     display: flex;
     align-items: center;
     height: 463px;
-    background: url('/frt/src/assets/images/Background2.png') no-repeat center center;
+    background: url('/../src/assets/images/Background2.png') no-repeat center center;
     background-size: cover;
 
      @media screen and (max-width: 767.98px) {

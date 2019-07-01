@@ -7064,32 +7064,32 @@ body {
 .bg-youtube {
   width: 20px;
   height: 22px;
-  background: url("/frt/src/assets/images/css_sprites.png") -234px -75px; }
+  background: url("/../src/assets/images/css_sprites.png") -234px -75px; }
 
 .bg-linkedin {
   width: 20px;
   height: 19px;
-  background: url("/frt/src/assets/images/css_sprites.png") -314px -75px; }
+  background: url("/../src/assets/images/css_sprites.png") -314px -75px; }
 
 .bg-twitter {
   width: 20px;
   height: 16px;
-  background: url("/frt/src/assets/images/css_sprites.png") -354px -75px; }
+  background: url("/../src/assets/images/css_sprites.png") -354px -75px; }
 
 .bg-facebook {
   width: 12px;
   height: 21px;
-  background: url("/frt/src/assets/images/css_sprites.png") -234px -117px; }
+  background: url("/../src/assets/images/css_sprites.png") -234px -117px; }
 
 .bg-plus {
   width: 20px;
   height: 20px;
-  background: url("/frt/src/assets/images/css_sprites.png") -274px -75px; }
+  background: url("/../src/assets/images/css_sprites.png") -274px -75px; }
 
 .bg-minus {
   width: 20px;
   height: 2px;
-  background: url("/frt/src/assets/images/css_sprites.png") -465px -75px; }
+  background: url("/../src/assets/images/css_sprites.png") -465px -75px; }
 
 .bg-check {
   position: absolute;
@@ -7097,28 +7097,28 @@ body {
   left: -18px;
   width: 15px;
   height: 11px;
-  background: url("/frt/src/assets/images/css_sprites.png") -430px -75px; }
+  background: url("/../src/assets/images/css_sprites.png") -430px -75px; }
 
 .bg-delete {
   width: 16px;
   height: 16px;
-  background: url("/frt/src/assets/images/css_sprites.png") -394px -75px;
+  background: url("/../src/assets/images/css_sprites.png") -394px -75px;
   cursor: pointer; }
 
 .bg-Logo {
   width: 271px;
   height: 45px;
-  background: url("/frt/src/assets/images/css_sprites.png") -234px -10px; }
+  background: url("/../src/assets/images/css_sprites.png") -234px -10px; }
 
 .bg-arrow_left {
   width: 92px;
   height: 150px;
-  background: url("/frt/src/assets/images/css_sprites.png") -10px -10px; }
+  background: url("/../src/assets/images/css_sprites.png") -10px -10px; }
 
 .bg-arrow_right {
   width: 92px;
   height: 150px;
-  background: url("/frt/src/assets/images/css_sprites.png") -122px -10px; }
+  background: url("/../src/assets/images/css_sprites.png") -122px -10px; }
 
 .navbar {
   height: 84px;
@@ -7300,6 +7300,9 @@ body {
   color: black;
   text-transform: uppercase; }
 
+.validation-form .form-row {
+  margin-bottom: 0; }
+
 .form-row {
   margin-bottom: 50px; }
 
@@ -7371,6 +7374,12 @@ input[type=checkbox] + label::after, input[type=checkbox]:checked + label::after
   border: solid 1px #bbbbbb;
   background: #ffffff; }
 
+.card-header .btn {
+  font-size: 20px;
+  font-weight: 900;
+  color: #878787;
+  -webkit-appearance: none; }
+
 .card-body h2 {
   margin-bottom: 40px; }
 
@@ -7378,7 +7387,7 @@ input[type=checkbox] + label::after, input[type=checkbox]:checked + label::after
   display: flex;
   align-items: center;
   height: 463px;
-  background: url("/frt/src/assets/images/Background2.png") no-repeat center center;
+  background: url("/../src/assets/images/Background2.png") no-repeat center center;
   background-size: cover; }
   @media screen and (max-width: 767.98px) {
     .card .card-body {
@@ -7392,6 +7401,9 @@ input[type=checkbox] + label::after, input[type=checkbox]:checked + label::after
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   -o-border-radius: 0; }
+
+.btn:focus, .btn.focus {
+  box-shadow: none; }
 
 .btn-primary {
   width: 161px;
@@ -7456,13 +7468,13 @@ input[type=checkbox] + label::after, input[type=checkbox]:checked + label::after
   opacity: .5; }
 
 #main-slider .swiper-button-prev, #main-slider .swiper-container-rtl .swiper-button-next {
-  background: url("/frt/src/assets/images/arrow-left.svg"); }
+  background: url("/../src/assets/images/arrow-left.svg"); }
   @media screen and (max-width: 991.98px) {
     #main-slider .swiper-button-prev, #main-slider .swiper-container-rtl .swiper-button-next {
       line-height: 1.2; } }
 
 #main-slider .swiper-button-next, #main-slider .swiper-container-rtl .swiper-button-prev {
-  background: url("/frt/src/assets/images/arrow-right.svg"); }
+  background: url("/../src/assets/images/arrow-right.svg"); }
 
 #main-slider .slider__info {
   position: absolute;
@@ -7591,7 +7603,7 @@ input[type=checkbox] + label::after, input[type=checkbox]:checked + label::after
   color: #001b1c; }
 
 .contact {
-  background: url("/frt/src/assets/images/Background.png"); }
+  background: url("/../src/assets/images/Background.png"); }
 
 .contact-form p {
   margin-top: 80px;

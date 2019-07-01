@@ -24,7 +24,7 @@
     }
 
     .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
-        background: url('/frt/src/assets/images/arrow-left.svg');
+        background: url('/../src/assets/images/arrow-left.svg');
 
         @media screen and (max-width: 991.98px) {
             line-height: 1.2;
@@ -32,7 +32,7 @@
     }
 
     .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
-        background: url('/frt/src/assets/images/arrow-right.svg');
+        background: url('/../src/assets/images/arrow-right.svg');
     }
 
     .slider__info {
