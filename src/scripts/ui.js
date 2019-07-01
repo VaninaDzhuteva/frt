@@ -27,3 +27,7 @@ for (let i = 0; i < menuItem.length; i++) {
         this.className += ' active';
     });
 }
+
+$("#accordion").on("hide.bs.collapse show.bs.collapse", function(e) {
+    $(e.target).addClass('text-danger');
+});
