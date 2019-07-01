@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../src/assets/css/main.css" />
     <!-- Swiper -->
-    <link rel="stylesheet" href="/frt/node_modules/swiper/dist/css/swiper.min.css">
+    <link rel="stylesheet" href="../node_modules/swiper/dist/css/swiper.min.css">
     <title>Flat Rock Technology Test Task</title>
 </head>
 <body>
@@ -56,16 +56,16 @@
         <div class="swiper-wrapper">
             <!-- Slides -->
             <div class="swiper-slide">
-                <img src="/frt/src/assets/images/slide-one.png" alt="slide image">
+                <img src="../src/assets/images/slide-one.png" alt="slide image">
             </div>
             <div class="swiper-slide">
-                <img src="/frt/src/assets/images/slide-two.png" alt="slide image">
+                <img src="../src/assets/images/slide-two.png" alt="slide image">
             </div>
             <div class="swiper-slide">
-                <img src="/frt/src/assets/images/slide-three.png" alt="slide image">
+                <img src="../src/assets/images/slide-three.png" alt="slide image">
             </div>
             <div class="swiper-slide">
-                <img src="/frt/src/assets/images/slide-four.png" alt="slide image">
+                <img src="../src/assets/images/slide-four.png" alt="slide image">
             </div>
         </div>
 
@@ -117,14 +117,13 @@
             <div class="accordion w-100" id="accordionExample">
                 <div class="card">
                     <div class="card-header" id="headingOne">
-                                <button class="d-flex align-items-center justify-content-between btn btn-link btn-collapse" type="button"
-                                                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                            Lorem ipsum dolor sit amet
-                                                            <div class="bg-plus"></div>
-                                                        </button>
+                        <button class="d-flex align-items-center justify-content-between btn w-100" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Lorem ipsum dolor sit amet<div class="bg-minus"></div>
+                            </button>
+                        </h3>
+                                
                     </div>
                     <!-- /card-header -->
-                    <div id="collapseOne" class="collapse show collapse-panel" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body">
                             <div class="container">
                                 <div class="row">
@@ -156,13 +155,13 @@
                 <!-- /card -->
                 <div class="card">
                     <div class="card-header" id="headingTwo">
-                    <button class="d-flex align-items-center justify-content-between btn btn-link btn-collapse" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        <button class="d-flex align-items-center justify-content-between btn w-100 collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                                             Lorem ipsum dolor sit amet
                                                             <div class="bg-plus"></div>
                                                         </button>
                     </div>
                     <!-- /card-header -->
-                    <div id="collapseTwo" class="collapse collapse-panel" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                         <div class="card-body">
                             <div class="container">
                                 <div class="row">
@@ -196,15 +195,15 @@
                 <div class="card">
                     <div class="card-header" id="headingThree">
                                
-                                <button class="d-flex align-items-center justify-content-between btn btn-link btn-collapse" type="button" data-toggle="collapse" data-target="#collapseThree"
-                                    aria-expanded="true" aria-controls="collapseThree">
+                            <button class="d-flex align-items-center justify-content-between btn w-100 collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                                    aria-expanded="false" aria-controls="collapseThree">
                                     Lorem ipsum dolor sit amet
                                 <div class="bg-plus"></div>
                             </button>
                             
                     </div>
                     <!-- /card-header -->
-                    <div id="collapseThree" class="collapse collapse-panel" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                         <div class="card-body">
                             <div class="container">
                                 <div class="row">
@@ -374,9 +373,14 @@
     </div>
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="/frt/node_modules/swiper/dist/js/swiper.min.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+<!-- Swiper -->
+<script src="../node_modules/swiper/dist/js/swiper.min.js"></script>
+<!-- Bundle -->
 <script src="./bundle.js"></script>
+
 </body>
 </html>
