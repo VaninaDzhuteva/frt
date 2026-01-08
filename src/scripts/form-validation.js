@@ -62,9 +62,9 @@ if(form) {
     // Check for cookie and redirect if there is any
     window.addEventListener('load', function() {
         if(localStorage.getItem('Adult') !== null) {
-            window.location.href = "/../dist/inner.html";
+            window.location.href = "./inner.html";
         } else {
-            window.location.href = "/../dist/index.html";
+            window.location.href = "./index.html";
         }
     });
 }
