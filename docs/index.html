@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../src/assets/css/main.css" />
+    <title>Flat Rock Technology Test Task</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-5">
+                <section class="validation">
+                    <h1 class="heading mb-3">When’s your birthday?</h1>
+                    <form id="validation-form" method="get" action="inner.html" onsubmit="event.preventDefault()" class="d-flex flex-column align-items-center">
+
+                        <div class="form-row">
+                            <input type="text" class="validation--input" id="month" aria-describedby="month" placeholder="MM">
+                            <input type="text" class="validation--input" id="day" aria-describedby="day" placeholder="DD">
+                            <input type="text" class="validation--input" id="year" aria-describedby="year" placeholder="YY">
+                        </div>
+                        <p class="text-danger hidden mt-4 mb-0">You must enter a valid birth date</p>
+                        <button id="submit-btn" class="btn btn-primary text-uppercase mt-4">Enter</button>
+                    </form>
+                    <!-- /form -->
+                    <p class="submit-text text-center">BY SUBMITTING YOUR DATE OF BIRTH YOU ACCEPT <a href="#">OUR TERMS & CONDITIONS</a>
+                        AND <a href="#">OUR PRIVACY POLICY</a></p>
+                </section>
+                <!-- /section -->
+            </div>
+            <!-- /col-5 -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+    <script src="./bundle.js"></script>
+</body>
+</html>
