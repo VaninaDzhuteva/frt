@@ -13,11 +13,3 @@ collapsBtn.forEach(e => {
     }
   });
 });
-
-// Accordion one panel always open
-// $('.collapse').on('hidden.bs.collapse', function () {
-//   // read the data-default value
-//   var defaultDiv = $($(this).data("parent")).data("default");
-//   // show the default panel
-//   $('.collapse').eq(defaultDiv - 1).collapse('show');
-// });
