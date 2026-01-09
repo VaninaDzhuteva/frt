@@ -1,3 +1,6 @@
+import Swiper from "swiper";
+import "swiper/dist/css/swiper.min.css";
+
 if (document.querySelector('.swiper-container')) {
 
     var mySwiper = new Swiper('.swiper-container', {
