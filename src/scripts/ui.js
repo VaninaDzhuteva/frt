@@ -1,6 +1,5 @@
 import "swiper/dist/css/swiper.min.css";
 import Swiper from "swiper";
-import swiper from "swiper";
 
 if (document.querySelector('.swiper-container')) {
 
