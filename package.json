@@ -27,8 +27,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.6.0",
+    "copy-webpack-plugin": "^6.4.1",
     "css-loader": "^3.0.0",
     "exports-loader": "^0.7.0",
+    "file-loader": "^6.2.0",
     "postcss-loader": "^3.0.0",
     "sass": "^1.97.2",
     "sass-loader": "^7.1.0",

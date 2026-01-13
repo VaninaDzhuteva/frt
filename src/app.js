@@ -4,3 +4,4 @@ import './scripts/accordion';
 import './scripts/add-service';
 import './scripts/form-validation';
 import './scripts/ui';
+import "./assets/scss/main.scss";

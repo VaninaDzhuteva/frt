@@ -1,41 +1,49 @@
-const path = require('path');
+const path = require("path");
+const CopyWebpackPlugin = require("copy-webpack-plugin");
 
 module.exports = {
-  entry: './src/app.js',
+  entry: "./src/app.js",
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist')
+    filename: "bundle.js",
+    path: path.resolve(__dirname, "dist"),
+    publicPath: "", // important for GitHub Pages project sites
   },
   module: {
     rules: [
+      // Swiper and any library CSS
+      { test: /\.css$/i, use: ["style-loader", "css-loader"] },
+
+      // Your SCSS + autoprefixer
       {
-        test: /\.(scss)$/,
+        test: /\.scss$/i,
         use: [
+          "style-loader",
+          "css-loader",
           {
-            // Adds CSS to the DOM by injecting a `<style>` tag
-            loader: 'style-loader'
-          },
-          {
-            // Interprets `@import` and `url()` like `import/require()` and will resolve them
-            loader: 'css-loader'
-          },
-          {
-            // Loader for webpack to process CSS with PostCSS
-            loader: 'postcss-loader',
+            loader: "postcss-loader",
             options: {
-              plugins: function () {
-                return [
-                  require('autoprefixer')
-                ];
-              }
-            }
+              postcssOptions: { plugins: [require("autoprefixer")] },
+            },
           },
-          {
-            // Loads a SASS/SCSS file and compiles it to CSS
-            loader: 'sass-loader'
-          }
-        ]
-      }
-    ]
-  }
+          "sass-loader",
+        ],
+      },
+
+      // Images/fonts referenced from SCSS/CSS/JS (emits into dist/)
+      {
+        test: /\.(png|jpe?g|gif|svg|webp|woff2?|eot|ttf|otf)$/i,
+        loader: "file-loader",
+        options: { name: "assets/[name].[hash].[ext]" },
+      },
+    ],
+  },
+
+  plugins: [
+    // Copy images/fonts used directly in HTML so they exist in dist/
+    new CopyWebpackPlugin({
+      patterns: [
+         { from: "src/assets/images", to: "assets/images" },
+      ],
+    }),
+  ],
 };
